@@ -7,7 +7,8 @@ define([
   '../collections/FacetCollection',
   '../models/ArrayFacetModel',
   './FacetsView',
-  'hbs!../templates/modules'
+  'hbs!../templates/modules',
+  'bootstrap/dropdown'
 ],
 
 function(_, Marionette, NUSMods, ModuleCollection, ModulesListingView,
